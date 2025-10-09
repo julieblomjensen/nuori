@@ -104,7 +104,7 @@ footer {
   padding-top: 40px;
 }
 
-/* FONT TIL FOOTER */
+/* DEFINERET FONTE */
 @font-face {
   font-family: "antic";
   src: url(font/Antic_Didone/AnticDidone-Regular.ttf);
@@ -115,6 +115,7 @@ footer {
   src: url(font/Open_Sans/static/OpenSans-SemiBold.ttf);
 }
 
+/* FONT TIL FOOTER */
 .footer-h1 {
   font-family: "open";
 }
@@ -125,4 +126,91 @@ footer {
 
 .kontakt {
   font-family: "antic";
+}
+
+/* INDEX / HERO */
+.hero {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+.hero h2 {
+  position: absolute;
+  bottom: 27%;
+  right: 24%;
+  color: white;
+  font-family: "open";
+}
+.hero p {
+  position: absolute;
+  bottom: 20%;
+  right: 9%;
+  color: white;
+  font-family: "antic";
+}
+
+.hero button {
+  position: absolute;
+  background-color: white;
+  border: none;
+  top: 80%;
+  right: 22%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: "antic";
+}
+
+/*INDEX - BESTSELLERS GRID */
+.bestsellers {
+  text-align: center;
+  font-family: "open";
+}
+
+.grid-bestsellers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.brand-name {
+  color: rgb(163, 173, 182);
+  text-align: left;
+  padding: 50px;
+}
+
+/* INDEX - NYHED */
+.grid-nyhed {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #95a180;
+  color: white;
+  font-family: "antic";
+  font-size: x-large;
+}
+
+.nyhed-tekst {
+  padding-left: 30px;
+}
+
+.nyhed {
+  font-family: "open";
+}
+
+.nyhed-tekst button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* INDEX - SHOP HER */
+.grid-shop {
+  padding-top: 50px;
+  text-align: center;
 }
