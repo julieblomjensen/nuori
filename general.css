@@ -210,7 +210,102 @@ footer {
 }
 
 /* INDEX - SHOP HER */
+
+/* PRODUCTLIST / SHOP */
+.shop-h1 {
+  text-align: left;
+  font-weight: lighter;
+  padding-left: 52px;
+  padding-top: 2rem;
+}
+
+.shop-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  padding-left: 50px;
+  padding-bottom: 2rem;
+}
+
+.shop-buttons button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: white;
+  border: #b2a072 solid;
+  border-width: 2px;
+}
+
+.shop-buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+.shop-buttons a:hover {
+  transition: ease-in 0.3s;
+}
+
+.sortering {
+  font-family: open;
+  text-decoration: underline;
+  padding-left: 100px;
+}
+
 .grid-shop {
   padding-top: 50px;
   text-align: center;
+}
+
+.grid-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.product-card {
+  background-color: #f7f8fb;
+  margin: 15px;
+}
+
+.basket-dark {
+  padding-left: 350px;
+}
+
+/* WATER BILLEDE MED TEKST */
+
+.water-text {
+  position: relative;
+  color: white;
+  text-align: left;
+}
+
+.water-text img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.water-text h1,
+.water-text h2,
+.water-text p {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+}
+
+.water-text h1 {
+  top: 40px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.water-text h2 {
+  top: 200px;
+}
+
+.water-text p {
+  top: 250px;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 800px;
 }
