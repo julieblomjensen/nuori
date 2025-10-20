@@ -311,7 +311,7 @@ footer {
 }
 
 /* SINGLEVIEW / PRODUCT */
-.product-grid {
+.product-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
@@ -319,6 +319,7 @@ footer {
 
 .produkt-tekst {
   place-self: start;
+  width: 270px;
 }
 
 .products-img {
