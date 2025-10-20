@@ -435,3 +435,12 @@ input[type="checkbox"] {
   width: auto;
   margin-right: 6px;
 }
+
+/* LINK IL HTML FORMULAR I FOOTER */
+.form-link {
+  color: white;
+}
+
+.form-link:hover {
+  color: black;
+}
