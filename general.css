@@ -374,3 +374,64 @@ footer {
   font-size: x-large;
   padding-left: 30px;
 }
+
+/* FORMULAR */
+.form-main {
+  padding-bottom: 50px;
+}
+
+.form-h1 {
+  text-align: center;
+}
+
+form {
+  background-color: #f7f8fb;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: black;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Knap */
+.submit {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #b2a072;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submit:hover {
+  background-color: #ccc;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 6px;
+}
