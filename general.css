@@ -283,6 +283,7 @@ footer {
   width: 100%;
   height: auto;
   display: block;
+  padding-bottom: 60px;
 }
 
 .water-text h1,
@@ -308,6 +309,17 @@ footer {
   font-size: 18px;
   line-height: 1.5;
   max-width: 800px;
+}
+
+.treforto {
+  text-align: center;
+  color: rgb(207, 33, 33);
+}
+
+.brand-sale {
+  color: rgb(207, 33, 33);
+  text-align: left;
+  padding: 50px;
 }
 
 /* SINGLEVIEW / PRODUCT */
