@@ -35,12 +35,12 @@ nav {
 .menu {
   display: flex;
   gap: 30px;
+  font-family: "open";
 }
 
 .menu a {
   text-decoration: none;
   color: white;
-  font-size: 17px;
   padding: 5px 0; /* plads til hover border */
   border: 2px solid transparent;
   border-radius: 5px;
@@ -57,6 +57,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 15px;
+  margin-right: 10px;
 }
 
 .icons img {
@@ -121,11 +122,13 @@ footer {
 }
 
 .information {
-  font-family: "antic";
+  font-family: "open";
+  font-size: small;
 }
 
 .kontakt {
-  font-family: "antic";
+  font-family: "open";
+  font-size: small;
 }
 
 /* INDEX / HERO */
@@ -143,7 +146,7 @@ footer {
 .hero h2 {
   position: absolute;
   bottom: 27%;
-  right: 24%;
+  right: 25.5%;
   color: white;
   font-family: "open";
 }
@@ -152,7 +155,7 @@ footer {
   bottom: 20%;
   right: 9%;
   color: white;
-  font-family: "antic";
+  font-family: "open";
 }
 
 .hero button {
@@ -160,7 +163,7 @@ footer {
   background-color: white;
   border: none;
   top: 80%;
-  right: 22%;
+  right: 23.5%;
   padding: 10px 20px;
   border-radius: 20px;
   font-family: "antic";
@@ -190,7 +193,7 @@ footer {
   grid-template-columns: 2fr 1fr;
   background-color: #95a180;
   color: white;
-  font-family: "antic";
+  font-family: "open";
   font-size: x-large;
 }
 
@@ -199,7 +202,7 @@ footer {
 }
 
 .nyhed {
-  font-family: "open";
+  font-family: "antic";
 }
 
 .nyhed-tekst button {
@@ -242,7 +245,8 @@ footer {
 }
 
 .shop-buttons a:hover {
-  transition: ease-in 0.3s;
+  color: #b2a072;
+  transition: ease-in 0.2s;
 }
 
 .sortering {
@@ -329,9 +333,22 @@ footer {
   gap: 100px;
 }
 
+.product-container h1 {
+  font-family: "antic";
+}
+
 .produkt-tekst {
   place-self: start;
   width: 270px;
+}
+
+.product-h2 {
+  font-family: "antic";
+}
+
+.produkt-tekst p {
+  font-family: "open";
+  font-size: smaller;
 }
 
 .products-img {
@@ -376,10 +393,6 @@ footer {
   border: none;
   border-radius: 20px;
   padding: 15px;
-}
-
-.product-h2 {
-  font-family: antic;
 }
 
 .product-price {
