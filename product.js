@@ -30,7 +30,7 @@ const id = params.get("id");
             <button class="q-btn">Tilføj til kurv</button>
           </div>
 
-         <h2 class="product-h2">Produkt detaljer</h2>
+         <h2 class="product-h2">Produktdetaljer</h2>
 
             <p>${product.description}</p>
           </div>
